@@ -1,0 +1,11 @@
+.checkbox_img {
+    height: 25px;
+}
+.checkbox_img img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.CheckboxIcon{
+    margin-right: 10px;
+}

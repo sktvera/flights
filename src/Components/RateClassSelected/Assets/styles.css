@@ -1,0 +1,314 @@
+
+.rateClassContendDesing{
+    width: 100%;
+    height: 75em;
+    display: flex;
+    display: grid;
+    grid-template-rows: 8% 18% 18% auto;
+}
+.rateClassContendDesingOneWay{
+    width: 100%;
+    height: 75em;
+    display: flex;
+    display: grid;
+    grid-template-rows: 8% 18% 76%;
+}
+.rateClassDesingTrueRoundTripGoing{
+    width: 100%;
+    height: 92em;
+    display: flex;
+    display: grid;
+    grid-template-rows: 8% 16% 56% 16% 4%;
+}
+.rateClassDesingTrueRoundTrip{
+     width: 100%;
+    height: 92em;
+    display: flex;
+    display: grid;
+    grid-template-rows: 8% 16% auto 16% auto 4%;
+}
+
+.rateClassTrueOneWay{   
+    width: 100%;
+    height: 80em;
+    display: flex;
+    display: grid;
+    grid-template-rows: 8% 16% 58% 16% 4%;
+}
+
+
+.rateClassDesing .rateClassDesing-item{
+    width: 100%;
+}
+
+.rateClassGuide{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 60px;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 15px 0px 0px 30px;
+}
+.rateClassGuide .rateClassGuide-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    height: 75%;
+}
+
+
+.rateClassGuide-itemDivider{ 
+    border-right: 2px solid #D9D9D9;
+   }
+
+.rateClassDesing-itemBorder{
+    width:94%;
+
+    height: 12em;
+    margin: 0% 30px 0% 30px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25) !important;
+ 
+}
+.navigationRateClass{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.rateClassDesing-Navigate{
+    margin: 0px 30px 0px 0px;
+    width: 30em;
+    height: 4em;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius:12px ;
+    -webkit-border-radius:12px ;
+    -moz-border-radius:12px ;
+    -ms-border-radius:12px ;
+    -o-border-radius:12px ;
+    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.rateClassDesing-Navigate .rateClassDesing-Navigate-item{
+   
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 60px 0px 60px;
+}
+
+.rateClassDesing-Navigate .rateClassDesing-Navigate-item .priceBooking{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.rateClassDesing-item .rateClassDesing-itemBorder{
+    display: grid;
+    grid-template-columns: 85% 15%;
+}
+
+.rateClassDesing-item .rateClassDesing-itemBorder .rateClassDesing-structure{
+    display: grid;
+    grid-template-rows: 40% 40% 20%;
+}
+.rateClassDesing-structure-tittlesFlights{
+    display: grid;
+    grid-template-columns:33% 33% 33% ;
+}
+.selectedRateClass{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.seeRateClass{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    grid-template-columns:none !;
+    border-left: 1px solid #D9D9D9;
+    margin: 15px 0px 15px 0px;
+    
+}
+
+.rateClassDesing-structure-tittlesFlights {
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #D9D9D9;
+    margin: 0px 15px 0px 15px;
+}
+
+.FlightDuration_{
+display: flex !important;
+justify-content: space-between !important;
+}
+
+.FlightDuration, .airlineImgAndTittle{
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+
+.dateAndIcon{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.dateAndDirection{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.itemsDirection{
+    width: 50%;
+}
+
+.falseRateClass{
+  
+    display: none !important;
+}
+
+.RateClassCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0% 30px 0px 30px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    height: 100%;
+    
+}
+.selectedRateClass:hover{
+    background-color:#D9D9D9 ;
+    cursor: pointer;
+    margin: 0px 6px 0px 6px;
+    border-radius:8px ;
+
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: linear;
+    
+}
+
+
+
+.rateClassGuide-item:hover{
+    color: white;
+    background-color: #004274;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    height: 100%;
+    cursor: pointer;
+
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: linear;
+}
+
+.sendDataRateClass{
+    background-color: #0042746b;
+    height: 100%;
+    width: 170px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+
+
+    transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+
+/* screen loader */
+
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20%;
+    height: 60em;
+}
+.container{
+    
+    padding: 0px 40px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin: 0px 10%;
+    background-color: #004274;
+    width: 600px;
+    height: 500px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.img{
+    margin-top: 8px;
+width: 100%;
+height: 100%;
+}
+
+.load{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.containerBalls{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.balls {
+    margin: 60px 20px 12px 0px;
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+    animation: salto .5s alternate
+    infinite;
+  border-radius: 50%  
+}
+.balls:nth-child(2) {
+    animation-delay: .18s;
+}
+.balls:nth-child(3) {
+    animation-delay: .37s;
+}
+@keyframes salto {
+    from {
+        transform: scaleX(1.25);
+    }
+    to{
+        transform: 
+        translateY(-50px) scaleX(1);
+    }
+}
+
+.rateClassNextToImg p{
+    font-size: 12px;
+    margin: 0px 10% 0px 10%;
+}

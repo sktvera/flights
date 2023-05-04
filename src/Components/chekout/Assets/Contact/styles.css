@@ -1,0 +1,31 @@
+.containerPassengersInfo{
+    width: 70em;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.inputsContact{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.inputContact{
+    margin-right: 40px;
+}
+
+
+.inputContact{
+    display: grid;
+    grid-template-rows: 40% 60%;
+    margin-top: 20px;
+}
+
+.inputContactAddress{
+    width: 430px;
+}
+
+@media screen and (max-width: 600px) {
+    .inputContactAddress{
+        width: auto;
+    }
+}

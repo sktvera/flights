@@ -1,0 +1,23 @@
+.containerPassengersInfo{
+    width: 70em;
+    height: 500px;
+}
+.inputsChild{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.inputIChild{
+    margin: 15px 20px 0px 0px;
+    display: grid;
+    grid-template-rows: 20% 80% ;
+}
+
+.inputIChild label{
+    margin: 0px 0px 80px 0px;
+}
+
+.calendar{
+    margin-top: 20px;
+}
+

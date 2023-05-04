@@ -1,0 +1,121 @@
+.contained{width: 90%;
+margin: 0% 5% 0% 5%;}
+.containerShoppingCartDetail{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 100%;
+   
+}
+.containerShoppingCartDetail_{
+  
+}
+
+.shoppingCartItems{
+    height: 80em;
+    display: grid;
+    grid-template-rows: 5% 95%;
+}
+
+.elementsShopping{
+   
+   
+    margin: 8% 5% 0% 5%;
+}
+.bodyElementsShopping{
+    display: grid;
+    grid-template-columns: 10% 60% 30%;
+}
+.Cart{
+    margin: 8% 5% 0% 5%;
+    background-color:#D6EAF8;
+   
+    height: 60%;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    
+width: 100%;
+height: 0px;
+left: 55px;
+top: 445px;
+
+opacity: 0.2;
+/* Black */
+
+border: 2px solid #000000;
+
+}
+.tittleShoppingCardBody h3{
+    margin: 5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+}
+.Cart{
+    display: grid;
+    grid-template-rows: 40% 60%;
+}
+.cartDetailFooter{
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+.tittleCardDetailFooter{
+    margin: 10% 0% 0px 10%;
+}
+.CartBody{
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+.CartBodyForm{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.CartBodyForm input{
+    width: 320px;
+}
+.CartBodyFormPayment{
+    display: grid;
+    grid-template-columns: 27% 27% 19% 27%;
+}
+.paymentCartInput{
+
+    width: 70px;
+    margin: 0px 12px 0px 10px;
+}
+.contained-CartBodyFormPayment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonPaymentCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.buttonPaymentCard button{
+    background-color: #8698A5;
+    color: white;
+}
+.cardDesing{
+    position: absolute;
+    top: 15%;
+    width: 30%;
+    height: 14%;
+    border-radius: 8px;
+    left: 58%;
+    background-color:#8698A5;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    
+}

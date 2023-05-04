@@ -1,0 +1,188 @@
+.procedureCatergoryDetailsHeader-img_background{
+    background: none !important;
+}
+.turismHeader-info_text{display: grid;
+grid-template-rows: 33%;}
+
+.alliesmHeader {
+    width: 100%;
+    height: 839px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.alliesmHeader img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.allies_info {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .3);
+}
+.allies-spaceHeader {
+    width: 40%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.turismHeader-info_text {
+    width: 60%;
+    text-align: right;
+}
+.turismHeader-info_text-tittle{
+    display: flex;
+    justify-content: center;
+}
+.turismHeader-info_text h1 {
+    
+    color: #004274;
+    font-family: 'Oswald';
+    font-size: 90px;
+    margin-right: 100px;
+    line-height: 100px
+}
+.div_results {
+    position: absolute;
+    top: 55px;
+}
+
+.content_text h3 {
+    width: 100%;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+}
+.procedureCategoryC-header_button-container{
+    display: flex;
+    justify-content: center;
+}
+.procedureCategoryC-header_button{
+    margin-top: 40px;
+}
+
+.procedureCategoryC-header_button a {
+    width: 180px;
+    height: 70px;
+    background-color: white;
+    color: #004274;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.procedureCategoryC-header_button a span {
+    margin: -8px 0 -10px 0;
+}
+
+.turismHeader-info_text .turismHeader-info_text-label p{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    width: 90%;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 200;
+}
+.turismHeader-info_text-label p{
+    display: flex;
+justify-content: center;
+margin-top: 40px;
+width: 90%;
+font-family: 'Inter';
+font-size: 20px;
+font-weight: 200;
+}
+
+
+@media screen and (max-width: 1250px) {
+    .turismHeader-info_text h1 {
+        font-size: 70px;
+        margin-right: 60px;
+        line-height: 80px
+    }
+    .content_text h3 {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .turismHeader_info {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .allies-spaceHeader{
+     width: 80%;   
+    }
+    .turismHeader-info_text {
+        width: 80%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .turismHeader-info_text h1 {
+        font-size: 50px;
+    }
+    .turismHeader_content {
+        width: 100%;
+        height: 170px;
+        border-radius: 40px;
+    }
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .content_text {
+        width: 90%;
+        height: 50px;
+    }
+}
+@media screen and (max-width: 620px) {
+    .turismHeader-info_text h1 {
+        line-height: 60px
+    }
+    .content_text h3 {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .allies-spaceHeader {
+        width: 90%;
+    }
+    .turismHeader-info_text {
+        width: 90%;
+    }
+    .turismHeader-info_text h1 {
+        margin-right: 0;
+    }
+    .results {
+        width: 420px;
+    }
+    .turismHeader_content {
+        height: 180px;
+    }
+    .content_text {
+        height: 70px;
+    }
+    .content_text {
+        height: 40px;
+    }
+    .content_text h3 {
+        font-size: 12px;
+    }
+}    

@@ -1,0 +1,425 @@
+.flightDetail {
+    width: 76%;
+}
+.css-1gsv261 {
+    border: none !important;
+}
+.css-heg063-MuiTabs-flexContainer {
+    justify-content: space-between;
+}
+.css-gulbw7-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    max-width: 470px;
+    color: #004274 !important;
+}
+.css-1aquho2-MuiTabs-indicator {
+    background-color: #004274 !important;
+}
+.pricesByAirlines {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.pricesByScales {
+    height: 100%;
+    width: 20%;
+}
+.pricesByScales_ {
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pricesByScales_ p {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+.pricesByAirline {
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+.pricesByAirline_ {
+    width: 33.33%;
+    height: 100%;
+    border-left: 1px solid rgba(0, 0, 0, .3);
+}
+.pricesByAirline_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+.pricesByAirline_title p {
+    font-family: 'Inter';
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 200;
+}
+.pricesByAirline_img {
+    height: 20px;
+    margin-right: 10px;
+}
+.pricesByAirline_img img {
+    height: 100%;
+    object-fit: cover;
+}
+.priceByAirline_price {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, .3);
+}
+.priceByAirline_price p {
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
+}
+.recommendations {
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 20px;
+}
+.recommendation {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.recommendation_ {
+    width: 80%;
+}
+.recommendation_ p {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+.recommendation_ p:first-child {
+    font-weight: 600;
+}
+/*Alert*/
+.alert {
+    width: 100%;
+    height: 140px;
+    border-radius: 20px;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.alert_ {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.alert_img {
+    width: 110px;
+    height: 100%;
+}
+.alert_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.alert_logo {
+    width: 150px;
+    height: 100%;
+}
+.alert_logo_ {
+    width: 100%;
+    height: 46px;
+}
+.alert_logo_ img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.alert_text {
+    width: 60%;
+}
+.alert_text h2 {
+    font-family: 'Inter';
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #004274;
+}
+.alert_text p {
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 300;
+}
+.alert_text a {
+    color: #004274;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+/* screen loader */
+
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20%;
+}
+.container{
+    
+    padding: 0px 40px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin: 0px 10%;
+    background-color: #004274;
+    width: 600px;
+    height: 500px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.img{
+    margin-top: 8px;
+width: 100%;
+height: 100%;
+}
+
+.load{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.containerBalls{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.balls {
+    margin: 60px 20px 12px 0px;
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+    animation: salto .5s alternate
+    infinite;
+  border-radius: 50%  
+}
+.balls:nth-child(2) {
+    animation-delay: .18s;
+}
+.balls:nth-child(3) {
+    animation-delay: .37s;
+}
+@keyframes salto {
+    from {
+        transform: scaleX(1.25);
+    }
+    to{
+        transform: 
+        translateY(-50px) scaleX(1);
+    }
+}
+
+/* media querys */
+
+@media screen and (max-width: 1200px) {
+    .flightDetail {
+      width: 70%;
+    }
+    .container{
+       
+        margin: 2% 8% 0px 0px;
+    }
+    
+}
+@media screen and (max-width: 1100px) {
+    .flightDetail {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .container{
+       
+        margin: 8% 18% 0px 0px;
+        width: 500px;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .alert {
+        height: 120px;
+    }
+    .alert_img {
+        width: 95px;
+    }
+    .alert_logo {
+        width: 100px;
+    }
+    .alert_logo_ {
+        height: 30px;
+    }
+    .alert_text h2 {
+        font-size: 20px;
+    }
+    .alert_text p {
+        font-size: 16px;
+    }
+    .pricesByScales_ p {
+        font-size: 14px;
+    }
+    .pricesByAirline_img {
+        height: 15px;
+    }
+    .container{
+       
+        margin: 20% 20% 0px 0px;
+        width: 400px !important;
+        height: 300px !important;
+    }
+}
+@media screen and (max-width: 700px) {
+    .flight-results_price {
+        width: 100%;
+        align-items: center;
+    }
+    .flight-results_price_ {
+        margin-top: 0;
+        width: 90%;
+        height: 100px; 
+    }
+    .flight-results-price_detail {
+        width: 60%;
+        text-align: left;
+    }
+    .flight-results-price_detail p:first-child {
+        font-size: 40px !important;
+    }
+    .flight-results-price_ButtonToBuy {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        margin: 25% 18% 0px 0px;
+        width: 300px !important;
+        height: 200px !important;
+    }
+}
+@media screen and (max-width: 500px) {
+    .css-gulbw7-MuiButtonBase-root-MuiTab-root {
+        font-size: 12px !important;
+    }
+    .pricesByAirline_img {
+        height: 12px;
+        display: flex;
+        align-items: center;
+    }
+    .pricesByScales_ {
+        text-align: center;
+    }
+    .pricesByAirline_title p {
+        font-size: 12px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .priceByAirline_price p {
+        font-size: 18px;
+    }
+    .recommendation_ p {
+        font-size: 13px;
+    }
+    /*Alert*/
+    .alert {
+        height: 120px;
+    }
+    .alert_ {
+        height: 70%;
+    }
+    .alert_img {
+        width: 75px;
+        margin-right: 10px;
+    }
+    .alert_logo {
+        display: flex;
+        align-items: center;
+        width: 80px;
+    }
+    .alert_logo_ {
+        height: 25px;
+    }
+    .alert_text h2 {
+        font-size: 16px;
+    }
+    .alert_text p {
+        font-size: 12px;
+    }
+    /*Add Luggage*/
+    .addLuggage_text h2 {
+        font-size: 18px;
+    }
+    /*Flights Details*/
+    .flight-results-going_date {
+        width: 90%
+    }
+    .flight-results-going_date p {
+        font-size: 12px;
+    }
+    .flight-going-airline {
+        width: 95%;
+    }
+    .flight-going-airline p {
+        font-size: 14px ;
+    }
+    .flight-going-airline_img {
+        height: 50px;
+    }
+    .container{
+       
+        margin: 30% 12% 0px 0px;
+        width: 285px !important;
+        height: 100px !important;
+    }
+    .img{
+        margin-right: 2.5em;
+        width:150px;
+        height: 75px;
+    }
+   
+}
+
+@media screen and (max-width: 400px) {
+    .container{
+       
+        margin: 30% 8% 0px 0px;
+        width: 240px !important;
+        height: 100px !important;
+    }
+    .img{
+        margin-right: 2.5em;
+        width:120px;
+        height: 60px;
+    }
+}
+

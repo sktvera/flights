@@ -1,0 +1,186 @@
+.bodyPaymentGate{
+    margin: 10px 100px 0px 20px;
+
+}
+
+.secondContainer{
+   width: 100%;
+
+}
+.paymentCardDetaiCard,.paymentCardQuestion {
+    border-radius: 20px!important;
+    padding:15px!important;
+    margin-top: 20px!important;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    -webkit-border-radius: 20px!important;
+    -moz-border-radius: 20px!important;
+    -ms-border-radius: 20px!important;
+    -o-border-radius: 20px!important;
+}
+.firstContainet,.secondContainer{
+    margin-left: 20px!important;
+    margin-right: 20px!important;
+}
+
+h5{
+    padding: 10px!important;
+}
+
+.formCard{
+    margin-top:8px!important ;
+    margin-bottom:8px!important;
+    margin-right: 8px!important;
+    padding-top:12px!important ;
+    padding-bottom:12px!important;
+    padding-right:12px!important;
+}
+
+.paymentTitle div h2{
+    
+    margin-top:4px !important;
+    margin-bottom: 4px!important;
+    margin-right: 4px!important;
+    padding-top:12px!important ;
+    padding-bottom:12px!important;
+    padding-right:12px!important;
+    color: #004274!important;
+}
+
+.paymentSubTitle, .paymentCardQuestionBoxDescriptionCheckbox div,.paymentTitle div p{
+    margin-top:4px !important;
+    margin-bottom: 4px!important;
+    margin-right: 4px!important;
+    padding-top:12px !important;
+    padding-bottom:12px!important;
+    padding-right:12px!important;
+    display: block!important;
+}
+
+.paymentAccommodationCheckItem label{
+    border-radius: 20px!important;
+    background-color: #bac4cd!important;
+    padding: 10px!important;
+    -webkit-border-radius: 20px!important;
+    -moz-border-radius: 20px!important;
+    -ms-border-radius: 20px!important;
+    -o-border-radius: 20px!important;
+}
+
+.formCardContainer, .formCardContainerDataCard{
+    display: flex;
+    padding-top:12px ;
+}
+
+.formCardItem{
+    display: flex!important;
+
+justify-content: center!important;
+align-items: center!important;
+width: 20%!important;
+}
+
+
+.paymentAccommodation div{
+    font-size:16px!important;
+    margin-top:4px !important;
+    margin-bottom: 4px!important;
+    margin-right: 4px!important;
+    padding-top:12px!important ;
+    padding-bottom:12px!important;
+    padding-right:12px!important;
+   
+}
+.paymentAccommodationCheck{
+    
+    display: flex!important;
+    align-items: center!important;
+}
+.paymentAccommodationCheckItem{
+    margin-top:4px !important;
+    margin-bottom: 4px!important;
+    margin-right: 4px!important;
+    padding-top:12px!important ;
+    padding-bottom:12px!important;
+    padding-right:12px!important;
+}
+.formCardInputCode{
+    
+    width: 50px!important;
+
+}
+
+.formCardInput{
+ 
+    
+    width: 150px!important;
+    
+}
+
+.formCard .formCardTitle{
+    display: flex!important;
+    justify-content: center!important;
+    width: 50px!important;
+}
+
+.formCard h5{
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+}
+
+.formCardInputItem{display: flex!important;
+justify-content: center!important;
+align-items: center!important;
+ }
+
+.SelectCard{
+    display: flex!important;
+    width: 200px!important;
+    height: 60px!important;
+}
+
+.boxSubmitItem{
+    display: flex!important;
+    margin-top:8px!important ;
+    margin-bottom:8px!important;
+    margin-right: 8px!important;
+    padding-top:12px !important;
+    padding-bottom:12px!important;
+    padding-right:12px!important;
+    justify-content: flex-start!important;
+    align-items: center!important;
+
+}
+
+.formCardContainerDataCardHidden{
+    display: flex!important;
+    align-items: center!important;
+    
+}
+
+.iconHidden{
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    padding-left: 60px!important;
+}
+
+.formCardInput{
+    text-align: start !important;
+}
+
+@media(max-width:450px){
+    .formCardInput input{
+        width: 60px!important;
+        
+    }
+    .iconHidden{
+        padding-left: 28px;
+    }
+}
+.boxSubmitItem .buttonPaymentCard{
+    background-color: #004274;
+    color: white;
+    font-weight: 600;
+}
+

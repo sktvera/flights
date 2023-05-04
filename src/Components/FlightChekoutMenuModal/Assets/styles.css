@@ -1,0 +1,176 @@
+/* 
+*
+*
+*
+----------------------- START  CONTAINER MENU MODAL ROUNDTRIP
+*
+*
+*
+*/
+.informationFlight{
+   display: flex;
+   flex-direction: row;
+    width:auto;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    margin: 0px 5% 0px 5%;
+    border-radius: 12px;
+    height: 5em;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.informationFlight-selection{
+    background-color: #004274;
+    color: white;
+    display: flex;
+   flex-direction: row;
+    width:auto;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    margin: 0px 5% 0px 5%;
+    border-radius: 12px;
+    height: 5em;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+/* 
+*
+*
+*
+----------------------- END 
+*
+*
+*
+*/
+
+.informationFlightCotained{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+.informationFlight_{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.informationFlight_Passengers p{
+    display: flex;
+    justify-content: center;
+    width: 180px;
+}
+.informationFlight_Date{
+    display: flex;
+    justify-content: center;
+}
+
+.informationFlight_Destination{
+    display: grid;
+    grid-template-columns:33% 33% 33% ;
+    width: 180px;
+    justify-content: center;
+    text-align: center;
+}
+
+.informationFlight_oneWay:hover, .informationFlight:hover{
+    background-color: #004274;
+    color: white;
+    transition: 1s;
+    border-radius: 12px;
+    cursor: pointer;      
+}
+
+.informationFlight-selection .informationFlight_ .informationFlight_Destination .airplane svg {
+    transition: 1s;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.informationFlight .informationFlight_ .informationFlight_Destination .airplane svg {
+    transition: 1s;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+
+}
+
+
+.informationFlight .informationFlight_ .informationFlight_Destination .airplane, .informationFlight-selection .informationFlight_ .informationFlight_Destination .airplane{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    .informationFlight{
+        width:50%;
+        height: 150px;
+        display: flex;
+    flex-direction: column; 
+    }
+    .informationFlight-selection{
+        width:50%;
+        height: 150px;
+        display: flex;
+    flex-direction: column; 
+    }
+    .informationFlight_{
+        margin-bottom: 15px;
+    }
+
+}
+@media screen and (max-width: 700px) {
+    .informationFlight{
+        width: 70%;
+        height: 130px;
+    }
+    .informationFlight-selection{
+        width: 70%;
+        height: 130px;
+    }
+    .informationFlight_{
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .informationFlight_Date, .informationFlight_Passengers div .tittlePassengers{
+        font-size: 16px !important;
+   
+    }
+    .informationFlight_Destination div p,.informationFlight_Passengers div .numerPassengers,.informationFlight_ div .totalPrice{
+        font-size: 20px !important;  
+    }
+    .informationFlight{
+        width: auto;
+        height: 120px;
+    }
+    .informationFlight-selection{
+        width: auto;
+        height: 120px;
+    }
+    .informationFlight_{
+        margin-bottom: 5px;
+    }
+    .inputsAdult{
+    width: 340px;
+    height: 140px;
+    }
+}

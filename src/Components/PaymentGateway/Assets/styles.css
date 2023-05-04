@@ -1,0 +1,59 @@
+.containedButtonPaymentGateway{
+    width: 100%;
+    height:650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ButtonPaymentGateway{
+    width: 230px;
+    height: 60px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    background-color:#004274 ;
+}
+.ButtonPaymentGateway:hover{
+    width: 240px;
+    height: 65px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+
+.itemPaymentGateway{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ButtonPaymentGateway a{
+   color: white;
+}
+
+
+.ButtonPaymentGatewayFalse{
+    width: 240px;
+    height: 60px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    background-color:#ffffff ;
+}
+
+.itemPaymentGatewayFalse p {
+    color: black;
+}
+ 

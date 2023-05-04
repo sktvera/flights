@@ -1,0 +1,399 @@
+.modal-familiesOrCheckout{
+     
+    display: grid;
+    grid-template-rows: auto;
+    background-color: rgb(255, 255, 255);
+    margin: 12% 10% 0px 10%;
+    height: 25em;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.containedModalFamiliesOrCheckout{
+    background-color:#EDEDED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.itemsColumnsModalFamilies{
+    display: grid;
+    grid-template-rows: 70% 30%;
+}
+.img-AndTittleModalFamilies{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+
+.tittleModalFamiliesOrCheckout{
+    font-family: 'Oswald';
+    color: #104172;
+    font-size: 26px;
+    font-weight: 600;
+}
+.subTittleModalFamiliesOrCheckout{
+    font-family: 'Oswald';
+    color: #104172;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+.familiesOrCheckoutModal_img {
+    height: 150px;
+    margin-right: 20px;
+}
+.familiesOrCheckoutModal_img img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.familiesOrCheckoutModal-buttons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.familiesOrCheckoutModal-paragraphs {
+ display: flex;
+ justify-content: center;
+ align-items: flex-end; 
+}
+.familiesOrCheckoutModal-paragraphs div {
+height: 80px; 
+}
+
+
+.familiesOrCheckoutModal-buttons-items{
+    width: 46%;
+}
+
+
+.containedSegments{
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+div .buttonSelectedFlight{
+    background-color:#004274;
+    color: white;
+}
+.flight-result-tittle{
+    font-family:'Inter' ;
+    color: white;
+    font-weight:600;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.tittlesFontSegment{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.flight_results_ {
+    width: 100% !important;  
+}
+.flight_results {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.flight-results_price, .flight-results_price-xs {
+    background-color:#EDEDED ;
+    border-radius: 0px 16px 0px 0px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 0px 16px 0px 0px;
+    -moz-border-radius: 0px 16px 0px 0px;
+    -ms-border-radius: 0px 16px 0px 0px;
+    -o-border-radius: 0px 16px 0px 0px;
+}
+.flight-results_price-xs{
+    margin-top: 14px;
+    border-radius: 0px 0px 0px 0px !important;
+    -webkit-border-radius: 0px 0px 0px 0px !important;
+    -moz-border-radius: 0px 0px 0px 0px !important;
+    -ms-border-radius: 0px 0px 0px 0px !important;
+    -o-border-radius: 0px 0px 0px 0px !important;
+}
+.flight-results_price_ {
+    width: 80%;
+    height: 130px;
+    margin-top: 25px;
+    text-align: end;
+}
+.flight-results_price_xs{
+    display: grid;
+    grid-template-columns: auto 28% auto;
+    width: 80%;
+}
+.flight-results_price_ p, .flight-results_price_xs p {
+    font-family: 'Oswald';
+    color: #104172;
+    font-size: 16px;
+    font-weight: 200;
+}
+.flight-results-price_ButtonToBuy {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+.flight-results-price_ButtonToBuy a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #104172;
+    color: white;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+.contained-addLuggage{
+    cursor: pointer;
+    transition: 1s;
+    background-color:   #104172;
+    border-radius: 0px 0px 0px 8px;
+    -webkit-border-radius: 0px 0px 0px 8px;
+    -moz-border-radius: 0px 0px 0px 8px;
+    -ms-border-radius: 0px 0px 0px 8px;
+    -o-border-radius: 0px 0px 0px 8px;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+/* equipaje ------------------------------------------------------------
+ */
+.SelectedluggageRotate{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+.addLuggage_text {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.addLuggage_text h2 {
+    color: white;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 600;
+}
+.addLuggage_img {
+    height: 60px;
+}
+.addLuggage_img img {
+    height: 100%;
+    object-fit: cover;
+}
+.spaceFly {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(134, 134, 134);
+   
+}
+.addLuggage {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addLuggage_ {
+    width: 95%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.flight-results-going_details-Box{
+    width: 25%;
+    height: 80%;
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+}
+.flight-results-going_details {
+    width: 33%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+.flight-results-going_details div {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flight-results-going_details div p, .flight-results-going_details-Box div p {
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.flight-results-going_details-Box {
+    align-items: center;
+}
+.flight-results-going_date .tittleFlightSegment{   
+    display: grid;
+    grid-template-rows: 50% 50%;
+    width: 100%;
+}
+.flight-results-going_date {
+   margin-top: 5%;
+    width: 100%;
+    height: 60%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;   
+}
+.airplane_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px ;
+}
+.airplane_img img{
+    height: 100%;
+    object-fit: cover;
+}
+.flight-results_going_ {
+    width: 40%;
+    height: 100%;
+    border-radius: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    -webkit-border-radius: 20px 0 0 0;
+    -moz-border-radius: 20px 0 0 0;
+    -ms-border-radius: 20px 0 0 0;
+    -o-border-radius: 20px 0 0 0;
+}
+.flight-results_going {
+    border-radius: 8px 0px 0px 0px;
+    background-color:#104172 ;
+    width: 96%;
+    height:75px;
+    display: flex;
+    align-items: center;
+    -webkit-border-radius: 8px 0px 0px 0px;
+    -moz-border-radius: 8px 0px 0px 0px;
+    -ms-border-radius: 8px 0px 0px 0px;
+    -o-border-radius: 8px 0px 0px 0px;
+}
+@media screen and (max-width: 600px){
+    .flight_results {
+  
+     grid-template-columns: auto ;              
+    }
+}
+    @media screen and (max-width: 1350px) {
+        .flight-result-tittle{
+            font-size: 18px;
+        }
+        }
+        @media screen and (max-width: 700px) {
+           
+            .flight_results_ {
+                width: 100%;
+                border: none;
+            }
+            .flight-results_price{
+                height: auto;
+            }
+            .flight-results_price-xs{
+                height: auto;
+            }
+            .flight-results-price_ButtonToBuy {
+                height: 100%;
+                margin-top: 0px;
+            }
+            .flight-results_price_xs p {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .flight-results_going{
+                width: 100%;
+            }
+        }
+        @media screen and (max-width: 550px) {
+            .flight-results_price_ p {
+                font-size: 14px;
+            }
+            .flight-results_price_ .results_price_Item .priceTaifa {
+                font-size: 20px !important  ;
+            }
+            .flight-results_price_ .results_price_Item p {
+                font-size: 16px !important;
+            }
+            .flight-results-price_ButtonToBuy button {
+                width: 90px !important;
+                height: 35px;
+            }
+            .flight-results-price_ButtonToBuy span {
+                font-size: 12px;
+            }
+        }
+        @media screen and (max-width: 450px) {
+            .flight-results_price_ p {
+                font-size: 12px;
+            }
+            .flight-results_price_ .results_price_Item .priceTaifa {
+                font-size: 16px !important  ;
+            }
+            .flight-results_price_ .results_price_Item p {
+                font-size: 14px !important;
+            }
+            .flight-results-price_ButtonToBuy button {
+                width: 80px !important;
+                height: 30px;
+            }
+            .flight-results-price_ButtonToBuy span {
+                font-size: 12px;
+            }
+        }
+        @media screen and (max-width: 370px) {
+            .flight-results_price_ p {
+                font-size: 12px;
+            }
+            .flight-results_price_ .results_price_Item .priceTaifa {
+                font-size: 14px !important  ;
+            }
+            .flight-results_price_ .results_price_Item p {
+                font-size: 12px !important;
+            }
+            .flight-results-price_ButtonToBuy button {
+                width: 70px !important;
+                height: 30px;
+            }
+            .flight-results-price_ButtonToBuy span {
+                font-size: 10px;
+            }
+        }

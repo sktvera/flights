@@ -1,0 +1,36 @@
+.RateClassCardDesing{
+
+    width: 95%;
+    height: 23em;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius:12px ;
+    -webkit-border-radius:12px ;
+    -moz-border-radius:12px ;
+    -ms-border-radius:12px ;
+    -o-border-radius:12px ;
+
+  
+    
+}
+
+.RateClassCardDesing-tittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.buttonsRateClassCardContained .buttonsRateClassCard{
+    background-color:#004274;
+    color: white;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+.buttonsRateClassCardContained .buttonsRateClassCard:hover{
+    color: black;
+}
+
+.containedItemsRateClassCard, .ItemsRateClassCard{
+    margin: 10px;
+}

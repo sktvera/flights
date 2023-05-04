@@ -1,0 +1,126 @@
+.FlightsCheckoutDetailSecond {
+    font-family: 'Inter';  
+}
+
+.purchaseDetailSecond,.descriptionCashSecond,.payDetailSecond,.payDetailConditionSecond .conditionSecond, .payDetailLocationHeaderOptionSecond{
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25) !important;
+        
+    
+}
+
+.purchaseDetailSecond,.descriptionCashSecond,.payDetailSecond,.payDetailSecond .payDetailModifySecond .breakfastSecond,.payDetailConditionSecond,.payDetailConditionSecond .conditionSecond,.payDetailLocationHeaderOptionSecond{
+    border-radius: 20px;
+}
+
+.purchaseDetailItemSecond,.purchaseDetailFlySecond,.payDetailMapSecond{
+    display: flex;
+}
+.purchaseDetailItemSecond,.purchaseDetailFlySecond{
+    justify-content: space-between;
+}
+
+.purchaseDetailItemSecond,.descriptionCashSecond,.purchaseDetailFlySecond,.payDetailMapSecond{
+    align-items: center;
+}
+
+.purchaseDetailItemSecond{
+    margin: 10px;
+    
+}
+.adressSecond,.descriptionCashSecond label,.descriptionCashSecond h3,.resultSecond,.payDetailSecondSecond .payDetailModifySecond,.payDetailSecond .payDetailModifySecond p,
+.payDetailSecond .payDetailModifySecond .breakfastSecond,.payDetailCheInOnSecond,.payDetailConditionSecond,.payDetailConditionSecond .conditionSecond,.purchaseDetailItemSecond {
+    font-size: 16px;
+}
+
+.descriptionCashSecond,.payDetailSecond{
+    margin-top: 20px;
+    
+}
+
+.descriptionCashSecond,.payDetailSecond,.payDetailConditionSecond,.purchaseDetailItemSecond{
+    padding:15px;
+}
+
+
+.descriptionCashSecond label{
+    padding-top: 8px;
+}
+
+.descriptionCashSecond h3,.payDetailMapSecond{
+    padding-bottom: 10px;
+}
+.purchaseDetailFlySecond{
+    padding: 20px;
+}
+.payDetailLocationHeaderTitleSecond{
+    padding-top: 15px;
+}
+
+.result1Second,.payDetailMapSecond,.FlightsCheckoutDetailSecond {
+    font-size:24px;
+}
+
+.payDetailSecond .payDetailModifySecond p,.descriptionCashSecond label{
+    color:rgb(149, 149, 149);
+}
+
+
+.payDetailSecond .payDetailModifySecond .breakfastSecond{
+    margin-top: 10px;
+    padding: 4px;
+    border:1.5px solid rgb(149, 149, 149) ;
+    width: 180px;
+}
+.payDetailMapSecond{
+    color:#791DE6;
+    padding-top:12px;
+    padding-right: 12px;
+}
+
+.payDetailCheInOnSecond{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.payDetailConditionSecond,.payDetailLocationHeaderOptionSecond{
+    color: white;
+}
+.payDetailConditionSecond{
+    background-color: rgb(73, 162, 222);
+    margin-top: 50px;
+}
+
+.payDetailConditionSecond .conditionSecond{
+    border:1.5px solid white;
+    margin-top: 15px;
+    padding:8px;
+    width: 130px;
+}
+
+.payDetailLocationHeaderOptionSecond{
+    background-color: rgb(32, 193, 158);
+    padding: 4px;
+    font-size: 10px;
+}
+
+
+  @media(max-width:1000px){
+    .adressSecond,.descriptionCashSecond label,.descriptionCashSecond h3,.resultSecond,.payDetailSecondSecond .payDetailModifySecond,.payDetailSecond .payDetailModifySecond p,
+.payDetailSecond .payDetailModifySecond .breakfastSecond,.payDetailCheInOnSecond,.payDetailConditionSecond,.payDetailConditionSecond .conditionSecond,.purchaseDetailItemSecond{
+        font-size: 16px;
+    }
+    .result1Second,.payDetailMapSecond,.FlightsCheckoutDetailSecond{
+        font-size:22px;
+    }
+    .payDetailLocationHeaderOptionSecond{
+        font-size: 12px;
+    }
+    .payDetailSecond .payDetailModifySecond .breakfastSecond{
+        width: 170px;
+    }
+    .payDetailConditionSecond .conditionSecond{
+        width: 130px;
+    } 
+  }
+
+
+

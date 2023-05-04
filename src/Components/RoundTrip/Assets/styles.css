@@ -1,0 +1,385 @@
+.itemFontSegment{
+    font-family: 'Inter';
+    font-size: 28px !important;
+}
+
+.flightSelectedSegment-items{
+    display: grid;
+    grid-template-columns: 40% 48% 12%;
+}
+.containedSelected{
+    width: 100%;
+}
+.boxChecboxImgTittle{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    width: 60%;
+    justify-content: center;
+    margin: 0px 10% 0px 10%;
+    width: 80%;
+}
+.flight-going-airlineCheckboxImg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  justify-content: start;
+}
+
+.flight-going-airline {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  justify-content: end;
+  margin-right: 30%;
+}
+.flight-going-airline p {
+    font-family: 'Inter';
+    font-weight: 200;
+    text-transform: capitalize;
+    margin-left: 5px;
+    text-align: center;
+    cursor: pointer; 
+}
+
+.flight_going_ {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.flight_ScaleAirline{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.flight-going-airline_img img {
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.modal{
+     
+    display: grid;
+    grid-template-rows: auto;
+    background-color: rgb(255, 255, 255);
+    margin: 12% 10% 0px 10%;
+    height: 25em;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+.modal .cardModal{
+   display: flex;
+  flex-direction: row;
+   
+    width: 95%;
+    height: 360px;
+    margin: 2%;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.tittleCardModal{
+    background: #0042741d;
+    border-radius: 8px;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-right: 0.5%;
+}
+.tittleCardModal h3{
+    font-family: 'inter';
+
+}
+
+.cardModalGrid_ThreeScales{
+    
+    width: 80%;
+    height: 100%;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   
+}
+.cardModalGrid_TwoScales{
+    
+    width: 80%;
+    height: 100%;
+   display: grid;
+   grid-template-columns: auto auto;
+}
+.cardModalGrid_OneScales{
+   
+    width: 80%;
+    height: 100%;
+   display: grid;
+   grid-template-columns: auto;
+}
+.bodyFlightTime_ .FlightTime svg{
+    width: 100%;
+    transform: rotate(90deg);
+    height: 25px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+.FlightTime p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardModalBody{
+    display: grid;
+    grid-template-rows: 60% 40%;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    margin-right: 0.5%;
+}
+
+.items-tittle_informationFlight{
+    display: grid;
+    grid-template-rows: auto;
+    text-align: center;
+}
+.items-tittle_informationFlight div{
+    margin-bottom: 8px;
+}
+
+ .cardModalBody_informationFlight{
+    font-family: 'inter';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tittle_informationFlight{
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+.tittleSub_informationFlight{
+    font-weight: 300;
+    font-size: 12px;
+    font-family: 'inter' !important;
+    
+}
+
+.cardModalBody_OriginAndDestiny{
+    font-family: 'inter';
+    margin: 0px 5% 0px 5%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.cardModalBody_OriginAndDestiny_footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.cardModalBody_OriginAndDestiny_footer div .OriginAndDestiny-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.itemDetails .details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30.80px;
+    border: 1px solid black;
+    width: 100%;
+    background-color:#D9D9D9 ;
+    cursor: pointer;
+    border-radius: 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+
+
+
+
+
+.cardModalBaggageContained{
+    
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    margin: 2%;
+    height: 250px;
+    display: grid;
+    grid-template-rows: 95% 5% !important;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.cardModalBaggage{
+    margin: 2%;
+}
+
+.cardModalBaggagefooter{
+    margin: -2% 0px 0px 2%;
+}
+
+.cardModalBaggageBody{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.BaggageDetails{
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+}
+
+
+
+.flight_going {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+.BaggageAndSelected{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    width: 50%;
+}
+.Baggage{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+    width: 100%;
+}
+
+.Baggage svg{
+    width: 25px;
+    height: 25px;
+}
+
+.nameAirline{
+    font-size: 11px !important;
+    font-weight: 300;
+
+}
+
+@media screen and (max-width: 1400px) {
+    .Baggage svg{
+        width: 20px;
+        height: 20px;
+    }
+    }
+
+    @media screen and (max-width: 1200px) {
+        .Baggage svg{
+            width: 18px;
+            height: 18px;
+        }
+        .tittle_informationFlight{
+            font-weight: 600 !important;
+            font-size: 16px !important;
+        }
+        .tittleSub_informationFlight{
+            font-weight: 300 !important;
+            font-size: 12px !important;
+            font-family: 'inter' !important;
+        }
+        .date_hours-informationFlight{
+            font-size: 12px;
+       }
+
+        }
+
+        @media screen and (max-width: 900px) {
+            
+        
+            .tittle_informationFlight{
+                font-weight: 600 !important;
+                font-size: 14px !important;
+            }
+            .tittleSub_informationFlight{
+                font-weight: 300 !important;
+                font-size: 10px !important;
+            }
+            .date_hours-informationFlight{
+                font-size: 10px;
+           }
+           .cardModalGrid_TwoScales{
+            grid-template-columns: auto auto;
+           }
+           
+           .cardModalGrid_ThreeScales{
+            grid-template-columns: auto auto auto;
+        }
+            }
+
+
+        @media screen and (max-width: 500px) {
+            .nameAirline {
+                font-size: 8px !important;
+                
+            }
+            
+            }
+
+
+            @media screen and (max-width: 550px) {
+                .Baggage svg {
+                    width: 15px;
+                    height: 15px
+                }
+                .modal .cardModal {
+                    flex-direction: column;
+                    height: 380px;
+                    width: 100%;
+                    margin: 0%;
+                }
+                .tittleCardModal{
+                 
+                    width: 100%;
+                    height: 20%;
+                }
+                .cardModalGrid_TwoScales{
+                    width: 100%;
+                }
+                .cardModalGrid_ThreeScales{
+                    width: 100%;
+                }
+              
+                }
+                @media screen and (max-width: 400px) {
+                    .Baggage svg {
+                        width: 13px;
+                        height: 13px
+                    }
+                    .FlightTime p{
+                        font-size: 13px;
+                    }
+                    .modal{
+                      width: 330px;
+                    }
+                    
+                    }
